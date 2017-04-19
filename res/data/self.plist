@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>group</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>用户</string>
+				<key>msg</key>
+				<string>Admin</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>分组</string>
+				<key>msg</key>
+				<string>系统管理员</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>行政区划</string>
+				<key>msg</key>
+				<string>蕲春县</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>group</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>直播地址</string>
+				<key>msg</key>
+				<string>空</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>group</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>切换行政区划</string>
+				<key>msg</key>
+				<string>空</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>退出当前账户</string>
+				<key>msg</key>
+				<string>空</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
