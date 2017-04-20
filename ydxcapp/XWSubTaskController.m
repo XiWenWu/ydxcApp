@@ -7,6 +7,7 @@
 //
 
 #import "XWSubTaskController.h"
+#import "XWItemController.h"
 
 #import "SubTask.h"
 #import "SubTaskCell.h"
@@ -82,6 +83,18 @@
     cell.item = item;
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //
+    XWItemController *itemView = [[XWItemController alloc] init];
+    // 隐藏tabbar
+    self.hidesBottomBarWhenPushed = YES;
+    // 跳转界面
+    [self.navigationController pushViewController:itemView animated:YES];
+    // 显示tabbar
+    self.hidesBottomBarWhenPushed = NO;
+    
 }
 
 
